@@ -79,6 +79,7 @@ var jsfiles = [
 	"node_modules/jquery.maskedinput/src/jquery.maskedinput.js",
 	"node_modules/sweetalert/dist/sweetalert.min.js",
 	"node_modules/nouislider/distribute/nouislider.min.js",
+	"node_modules/bootstrap/dist/js/bootstrap.bundle.js",
 	// "node_modules/bootstrap/dist/js/bootstrap.min.js",
 	// "node_modules/@popperjs/core/dist/umd/popper.min.js",
 	// "node_modules/summernote/dist/summernote-lite.js",
@@ -140,7 +141,7 @@ gulp.task("clean", function () {
 
 gulp.task(
 	"build",
-	gulp.series("clean", gulp.parallel("css", "wysiwyg-css", "pug", "image", "js", "myJs", "fonts", "icomoon", "video"))
+	gulp.series("clean", gulp.parallel("css", "pug", "image", "js", "myJs", "fonts", "icomoon", "video"))
 );
 
 gulp.task("watch", function () {
