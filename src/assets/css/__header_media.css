@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1200px) {
+	.header__iBtns {
+		padding: 0 1.125rem 0 0;
+	}
+	.header__menu li {
+		margin: 0 1.5rem 0 0;
+	}
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 1080px) {
+	.topLine__menuArea {
+		display: none;
+	}
+	.header__menuBtn {
+		display: block;
+	}
+	.header__menuArea {
+		display: none;
+	}
+	a.topLine__instagram {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 920px) {
+}
+
+@media only screen and (max-width: 820px) {
+}
+
+@media only screen and (max-width: 768px) {
+	.btn1 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.topLine {
+		height: 1.5rem;
+	}
+
+	.topLine__address i {
+		display: none;
+	}
+	.topLine__address span {
+		font-size: 0.625rem;
+		margin: 0;
+	}
+	.topLine__login {
+		display: none;
+	}
+	.logo1 {
+		width: 74px;
+	}
+	a.topLine__instagram {
+		margin: 0 0 0 auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.header__phone {
+		display: none;
+	}
+	.header__iBtns {
+		padding: 0 0.875rem 0 0;
+	}
+	.iBtn {
+		margin: 0 1.25rem 0 0;
+	}
+	.iBtn span {
+		top: -3px;
+		right: -0.875rem;
+		width: 1.175rem;
+		height: 1.175rem;
+		font-size: 0.625rem;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+}
+
+@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 320px) {
+}

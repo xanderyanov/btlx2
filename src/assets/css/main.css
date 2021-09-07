@@ -1,0 +1,522 @@
+html,
+body {
+	color: #000;
+	font-family: "Roboto Condensed", sans-serif;
+	/* font-family: "Open Sans", serif; */
+	/* font-family: "Roboto", sans-serif; */
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.2;
+	position: relative;
+	height: 100%;
+	background: #fafafa;
+	display: flex;
+	flex-direction: column;
+}
+
+.site__header {
+	position: relative;
+}
+
+.site__center {
+	position: relative;
+	padding: 0 0 20px;
+}
+
+.site__footer {
+	position: relative;
+	margin-top: auto;
+}
+
+.wsite {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wideBlock__area {
+	width: 100%;
+}
+.wideBlock {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/* .xTitle {
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.xTitle h1 {
+	font-weight: 300;
+	font-size: 3rem;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+.xTitle h2 {
+	font-weight: 300;
+	font-size: 2.625rem;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+.xTitle h3 {
+	font-weight: 300;
+	font-size: 2.125rem;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+.title1 {
+	position: relative;
+	width: 100%;
+}
+
+.title1 h2 {
+	font-weight: 300;
+	font-size: 2.625rem;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+.title1_uppercase h2 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.titleTAL {
+	position: relative;
+	width: 100%;
+}
+
+.title3 h1,
+.title3 h2 {
+	margin: 0;
+}
+
+.pageTitle {
+	margin: 0 0 25px 0;
+}
+.pageTitle h1,
+.pageTitle h2,
+.pageTitle h3 {
+	margin: 0;
+} */
+
+.xBlock {
+	margin-bottom: 70px;
+}
+
+.btn2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color2);
+	background: #fafafa;
+	border: 2px solid var(--color2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 0.75rem 2rem;
+	margin: 30px 0 50px;
+	transition: all 0.3s;
+}
+
+.btn2:hover {
+	color: var(--red1);
+	border: 2px solid var(--red1);
+}
+
+.btn3_centredWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+a.btn3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* width: 90%; */
+	/* max-width: 240px; */
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color2);
+	background: #fafafa;
+	border: 2px solid var(--color2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 0.75rem 2rem;
+	margin: 30px auto 0;
+	transition: all 0.3s;
+	text-decoration: none;
+	/* white-space: nowrap; */
+	text-align: center;
+}
+
+a.btn3:hover {
+	color: var(--red1);
+	border: 2px solid var(--red1);
+}
+
+.mt0 {
+	margin-top: 0;
+}
+.mb0 {
+	margin-bottom: 0;
+}
+.pt0 {
+	padding-top: 0;
+}
+.pb0 {
+	padding-bottom: 0;
+}
+
+/* .title0 h1,
+.title0 h2,
+.title0 h3 {
+	margin: 0 0 20px;
+} */
+
+.block__video,
+.block__photo {
+	margin: 20px 0 0 0;
+}
+
+.summaryBlock {
+	float: right;
+}
+
+.summaryBlock_video {
+	width: 50%;
+}
+
+.summaryBlock_img {
+	width: auto;
+}
+
+.summaryBlock__inner {
+	padding: 0 0 20px 20px;
+}
+
+.summaryBlock__introImg {
+	width: 100%;
+	background: #4f4f4f;
+}
+
+.summaryBlock img {
+	max-width: 100%;
+	display: block;
+	margin: 0;
+	height: auto;
+}
+
+.searchResults__area {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.searchResults {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	border-radius: 6px;
+}
+
+.searchResult__outer {
+	padding: 20px 0;
+	border-bottom: 1px solid #e0e0e0;
+	width: 100%;
+}
+
+.searchResult__outer:last-child {
+	border-bottom: none;
+}
+
+.searchResult {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	flex-wrap: wrap;
+}
+
+.searchResult__img {
+	width: 15%;
+	max-width: 100px;
+}
+
+.searchResult__img img {
+	display: block;
+	width: 100%;
+}
+
+.searchResult__info {
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px 0 20px;
+}
+
+.searchResult__info span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.04em;
+	color: #4f4f4f;
+}
+
+.searchResult__info span:last-child {
+	font-weight: bold;
+	margin-top: 0.5rem;
+	text-transform: uppercase;
+}
+
+.searchResult:hover .searchResult__info span {
+	color: var(--red1);
+}
+
+.searchResult__priceArea {
+	margin-left: auto;
+}
+
+.searchResult__OldPrice {
+	margin-bottom: 0.3125rem;
+	text-decoration: line-through;
+	font-size: 1rem;
+	font-style: italic;
+	color: #a6a6a6;
+	margin-right: 1rem;
+}
+
+.searchResult__Price {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #4f4f4f;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.zCheckbox__area {
+	position: relative;
+}
+
+.zCheckbox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 15px 0 15px 44px;
+	min-height: 20px;
+}
+
+.zCheckbox:last-child {
+	margin-bottom: 0;
+}
+
+.zCheckbox input[type="checkbox"] {
+	display: none;
+}
+
+.zCheckbox label {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	cursor: pointer;
+	font-family: "Roboto Condensed", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	color: #4f4f4f;
+	width: 100%;
+}
+
+.zCheckbox label::before {
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	left: -44px;
+	content: "";
+	display: block;
+	height: 24px;
+	width: 24px;
+	border: 1px solid #534764;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.zCheckbox label::after {
+	content: "";
+	display: block;
+	height: 6px;
+	width: 10px;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+	left: -37px;
+	color: #fff;
+}
+
+.zCheckbox input[type="checkbox"] + label::after {
+	content: none;
+}
+
+.zCheckbox input[type="checkbox"]:checked + label::after {
+	content: "";
+}
+
+.zCheckbox input[type="checkbox"]:checked + label::before {
+	border: 1px solid var(--color1);
+	background: var(--color1);
+}
+
+.zCheckbox input[type="checkbox"]:checked + label {
+	/* color: #ff4141; */
+}
+
+.zRadio {
+}
+
+/* для элемента input c type="radio" */
+.zRadio input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+/* для элемента label связанного с .custom-radio */
+.zRadio input + label {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+/* создание в label псевдоэлемента  before со следующими стилями */
+.zRadio input + label::before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border: 1px solid #adb5bd;
+	border-radius: 50%;
+	margin-right: 12px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.zRadio input:not(:disabled):not(:checked) + label:hover::before {
+	border-color: var(--color1);
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.zRadio input:not(:disabled):active + label::before {
+	background-color: var(--color1);
+	border-color: var(--color1);
+}
+
+.zRadio input:not(:disabled):active + .deliveryType__price {
+	color: var(--red1);
+}
+
+/* стили для радиокнопки, находящейся в фокусе */
+.zRadio input:focus + label::before {
+	/* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.zRadio input:focus:not(:checked) + label::before {
+	border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.zRadio input:checked + label::before {
+	/* border-color: var(--color1); */
+	/* background-color: #0b76ef; */
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-6 -6 12 12'%3e%3ccircle r='6' fill='4F4F4F'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.zRadio input:disabled + label::before {
+	background-color: #e9ecef;
+}
+
+.xIntro__area {
+	width: 100%;
+}
+
+.xIntroImg {
+	width: 50%;
+	float: right;
+	padding: 0 0 0 40px;
+}
+
+.xIntroImg img {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.xIntro {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.xMore {
+	margin-bottom: 20px;
+	display: none;
+}
+
+.xIntro__more {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: var(--color1);
+	cursor: pointer;
+}
+.xIntro__more:hover {
+	text-decoration: underline;
+}
+
+.tour {
+	position: relative;
+	width: 100%;
+	padding-top: 60%;
+}
+
+.wsite iframe {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.mainPopular {
+	margin-bottom: 70px;
+}

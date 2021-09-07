@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=cyrillic");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=cyrillic");
+
+@import "../../../node_modules/sweetalert/dist/sweetalert.css";
+@import "../../../node_modules/nouislider/distribute/nouislider.css";
+
+@import "../../../node_modules/swiper/css/swiper.css";
+@import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* @import "../../../node_modules/summernote/dist/summernote-lite.min.css"; */
+/* @import "../../../node_modules/font-awesome/css/font-awesome.min"; */
+
+@import "reset.css";
+
+@import "fonts.css";
+@import "typorraphy.css";
+@import "commons.css";
+
+@import "xandercode.css";
+
+@import "__header.css";
+@import "__header_media.css";
+
+@import "__eSearch.css";
+@import "__eSearch_media.css";
+
+@import "__leftSlideMenu.css";
+@import "__leftSlideMenu_media.css";
+
+/* @import "__mainTop2.css";
+@import "__mainTop2_media.css"; */
+
+@import "__mainTop.css";
+@import "__mainTop_media.css";
+
+@import "__card.css";
+@import "__card_media.css";
+
+@import "__overlay.css";
+@import "__overlay_media.css";
+
+@import "__price.css";
+@import "__price_media.css";
+
+/* Старые */
+@import "__menu.css";
+@import "__menu_media.css";
+
+@import "__promoLine.css";
+
+@import "__callback.css";
+@import "__callback_media.css";
+
+@import "__slider1.css";
+@import "__slider1_media.css";
+
+@import "__mainBox.css";
+@import "__mainBox_media.css";
+
+@import "__blog.css";
+@import "__blog_media.css";
+
+@import "__newsInMain.css";
+@import "__newsInMain_media.css";
+
+@import "__sevices.css";
+@import "__services_media.css";
+
+/* @import "__procedure.css"; старая но пока тут */
+/* @import "__procedure_media.css"; */
+
+@import "__procedure3.css";
+@import "__procedure3_media.css";
+
+@import "__procedure4.css";
+@import "__procedure4_media.css";
+
+@import "__masters.css";
+@import "__masters_media.css";
+
+@import "__master.css";
+@import "__master_media.css";
+
+@import "__master4.css";
+@import "__master4_media.css";
+
+@import "__imgCaroucel.css";
+@import "__imgCaroucel_media.css";
+
+@import "__brands.css";
+@import "__brands_media.css";
+
+@import "__news.css";
+@import "__news_media.css";
+
+@import "__contacts.css";
+@import "__contacts_media.css";
+
+/* @import "__footer.css";
+@import "__footer_media.css"; */
+
+@import "__footer3.css";
+@import "__footer3_media.css";
+
+@import "__gallery.css";
+@import "__gallery_media.css";
+
+@import "__forms.css";
+@import "__forms_media.css";
+
+@import "__breadcrumbs.css";
+@import "__breadcrumbs-media.css";
+
+@import "__wideblock.css";
+@import "__wideblock_media.css";
+
+@import "__instagram.css";
+@import "__instagram_media.css";
+
+@import "__newBlocks.css";
+@import "__newBlocks_media.css";
+
+@import "__mbMenu.css";
+@import "__mbMenu_media.css";
+
+@import "__mainProblem.css";
+@import "__mainProblem_media.css";
+
+@import "__menuBottom1.css";
+@import "__menuBottom1_media.css";
+
+@import "__eShopMenu.css";
+@import "__eShopMenu_media.css";
+
+@import "__eShopCatalogFloat.css";
+@import "__eShopCatalogFloat_media.css";
+
+@import "__eFilter.css";
+@import "__eFilter_media.css";
+
+@import "__eFilterMobile.css";
+@import "__eFilterMobile_media.css";
+
+@import "__eShopTovar.css";
+@import "__eShopTovar_media.css";
+
+@import "__eShopTovarSlider.css";
+@import "__eShopTovarSlider_media.css";
+
+@import "__tovarSimilarCaroucel.css";
+@import "__tovarSimilarCaroucel_media.css";
+
+@import "__eShopCartPage.css";
+@import "__eShopCartPage_media.css";
+
+@import "__eShopCartOrderProcess.css";
+@import "__eShopCartOrderProcess_media.css";
+
+@import "__eShopOrderDetails.css";
+@import "__eShopOrderDetails_media.css";
+
+@import "__eShopCabinet.css";
+@import "__eShopCabinet_media.css";
+
+@import "__brandPage.css";
+@import "__brandPage_media.css";
+
+@import "__actions.css";
+@import "__actions_media.css";
+
+@import "__blocks.css";
+@import "__blocks_media.css";
+
+@import "__comments.css";
+@import "__comments_media.css";
+
+@import "__pagination.css";
+@import "__pagination_media.css";
+
+@import "__eShopCatalogX.css";
+@import "__eShopCatalogX_media.css";
+
+@import "__eVideoPage.css";
+@import "__eVideoPage_media.css";
+
+@import "__simpleReg.css";
+@import "__simpleReg_media.css";
+
+/*        */
+
+/* в самом низу */
+@import "main.css";
+@import "media.css";
+
+/* @import "newyear.css"; */
